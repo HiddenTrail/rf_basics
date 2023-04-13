@@ -1,13 +1,4 @@
-# Installation and Introduction
-
-Welcome to Hidden Trails Robot Framework basics course! On this trail we are learning:
-
-- How to install the needed things in this course.
-- Writing our first test case in Robot Framework.
-- Running the test cases.
-- How to work with keywords.
-- How to work with variables.
-- What are and how one should use resource files.
+# Installations
 
 ## Prerequisites
 
