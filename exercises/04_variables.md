@@ -2,6 +2,8 @@
 
 Variables in Robot Framework allow you to store and reuse values throughout your test cases. You can define variables using the *** Variables *** section in your test suite file, and then use them in your test cases by enclosing them in ${}.
 
+## Exercise 4 - Variables
+
 1. Create a new test suite file called variable_tests.robot.
 2. Define a test case that uses variables to store the search query and expected search result. The test case should perform the following steps:
     - Open the Google search page.

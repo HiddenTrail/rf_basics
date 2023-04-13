@@ -2,6 +2,8 @@
 
 Robot Framework tests are run in command prompt/terminal or alternatively straight from IDE.
 
+## Exercise 2 - Running your test suite
+
 You have created your first test suite in the last exercise. You can use this `.robot` file as and example in this exercise.
 
 1. Open a command prompt or terminal window.
