@@ -5,7 +5,7 @@ Congratulations! Now you have your setup ready and we can start our first test c
 
 ## Robot Framework test suite structure
 
-Robot Framework `.robot` file is a way to create and organize automated tests. It can include test cases, keywords and variables. The file can also include settings that control how Robot Framework behaves.
+Robot Framework `.robot` file is a way to create and organize automated tests. It can include test cases, keywords and variables. The file can also include settings that may have documentation, metadata and resource imports.
 
 ```
 *** Settings ***
@@ -26,4 +26,6 @@ Login Should Work Correctly
 
 ## Exercise 1 - Own Robot Framework test suite
 
-Create a test case that logs a message saying "Hello, Robot Framework!". 
+Create a test case that logs a message saying "Hello, Robot Framework!".
+
+TO-DO: Add some things about Metadata, Froce Tags jne fields. NOTE: there is a separate exercise about tagging!
