@@ -7,7 +7,7 @@ Robot Framework tests are run in command prompt/terminal or alternatively straig
 You have created your first test suite in the last exercise. You can use this `.robot` file as and example in this exercise.
 
 1. Open a command prompt or terminal window.
-2. Navigate to the directory where the test suite file is located using the cd command.
+2. Navigate to the directory where the test suite file is located using the `cd` command.
 3. Run the test suite using the robot command followed by the name of the test suite file. For example: robot my_test_suite.robot
 4. Robot Framework will run the test suite and output the results in the command prompt or terminal window.
 
