@@ -1,17 +1,13 @@
 *** Settings ***
 Library    Browser
 
-*** Variables ***
-${URL}    https://www.google.com
-${QUERY}    Robot Framework
-
 *** Keywords ***
 Open Google Homepage
     New Browser    chromium    headless=False
-    New Page    ${URL}
+    New Page    https://www.google.com
 
 Input Search Query
-    Type Text    css=[name="q"]    ${QUERY}
+    Type Text    css=[name="q"]    Robot Framework
     Click    css=body
     Wait For Elements State    css=center:nth-child(1) > .gNO89b
 
