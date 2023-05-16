@@ -9,23 +9,25 @@ The repository is divided by exercises and solutions folders. In addition the re
 
 ## Course Outline
 
-1. **Installation** - In this section, you'll learn how to install Robot Framework and the necessary libraries to get started with test automation.
+00. **Installation** - In this section, you'll learn how to install Robot Framework and the necessary libraries to get started with test automation.
 
-2. **Writing Your First Test Case** - In this section, you'll learn how to write your first test case using Robot Framework. You'll learn how to create a basic test case and use the built-in library.
+01. **Writing Your First Test Case** - In this section, you'll learn how to write your first test case using Robot Framework. You'll learn how to create a basic test case and use the built-in library.
 
-3. **Running Test Cases** - In this section, you'll learn how to run your test cases and generate test reports. You'll learn how to use the robot command-line tool to execute your test cases and how to generate HTML reports.
+02. **Running Test Cases** - In this section, you'll learn how to run your test cases and generate test reports. You'll learn how to use the robot command-line tool to execute your test cases and how to generate HTML reports.
 
-4. **Working with Keywords** - In this section, you'll learn how to work with keywords in Robot Framework. You'll learn how to create your own custom keywords and use them in your test cases.
+03. **Working with Keywords** - In this section, you'll learn how to work with keywords in Robot Framework. You'll learn how to create your own custom keywords and use them in your test cases.
 
-5. **Working with Variables** - In this section, you'll learn how to work with variables in Robot Framework. You'll learn how to define variables and use them in your test cases to make them more flexible and reusable.
+04. **Working with Variables** - In this section, you'll learn how to work with variables in Robot Framework. You'll learn how to define variables and use them in your test cases to make them more flexible and reusable.
 
-6. **Resource Files** - In this section, you'll learn how to use resource files in Robot Framework. You'll learn how to create and import resource files to reuse test code across multiple test cases.
+05. **Resource Files** - In this section, you'll learn how to use resource files in Robot Framework. You'll learn how to create and import resource files to reuse test code across multiple test cases.
 
-7. **Data-Driven Testing** - In this section, you'll learn how to make your test cases data-driven using Robot Framework. You'll learn how to use test data files to run the same test case with different input values.
+06. **Data-Driven Testing** - In this section, you'll learn how to make your test cases data-driven using Robot Framework. You'll learn how to use test data files to run the same test case with different input values.
 
-8. **Setup and Teardown** - In this section, you'll learn how to use setup and teardown keywords in Robot Framework. You'll learn how to define common test steps to be executed before and after each test case.
+07. **Setup and Teardown** - In this section, you'll learn how to use setup and teardown keywords in Robot Framework. You'll learn how to define common test steps to be executed before and after each test case.
 
-9. **Tagging** - In this section, you'll learn how to use tagging in Robot Framework. You'll learn how to tag your test cases and use tags to run specific tests or exclude certain tests.
+08. **Locators** - In this section, you'll learn about locators and how to use them in web test automation. We'll go through the most common locators.
+
+09. **Tagging** - In this section, you'll learn how to use tagging in Robot Framework. You'll learn how to tag your test cases and use tags to run specific tests or exclude certain tests.
 
 10. **Further Resources** - In this section, you'll find additional resources and documentation to help you continue learning about Robot Framework.
 
