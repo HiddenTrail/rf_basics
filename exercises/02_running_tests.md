@@ -2,7 +2,7 @@
 
 Robot Framework tests are run in command prompt/terminal or alternatively straight from IDE.
 
-## Exercise 2 - Running your test suite
+## Exercise 2.1 - Running your test suite
 
 You have created your first test suite in the last exercise. You can use this `.robot` file as and example in this exercise.
 
@@ -22,4 +22,7 @@ To run the test suite using an IDE, you can follow these steps:
 5. Optionally, you can configure other settings such as the path to the Robot Framework executable and the output directory for the test results.
 6. Run the configuration, and the IDE will execute the test suite and display the results in the IDE.
 
-That's it!
+## Exercise 2.2 - Extra: running your test suite by using tagging
+
+We'll go through tagging later on so don't worry if this is tricky. As an extra assignment you'll have to run 
+your test suite (or the example solution) by using --exclude and/or --include handles. 
