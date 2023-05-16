@@ -8,13 +8,19 @@ A user-defined keyword is a custom keyword created by the user to perform a spec
 
 ## Exercise 3 - User keywords
 
-Your task is to create a custom keyword that logs in to the website using the specified username and password, and then verifies that the user is logged in.
+Objective: Create a test case to perform a Google search and verify that the search results page is displayed. Also wrap every keyword with your own user keyword with a understandable keyword name.
 
-To accomplish this, you'll need to create a new keyword that encapsulates the common test steps for logging in to the website, and then use this keyword in the test case. Here are the steps:
+Steps:
 
-1. Add a *** Keywords *** section to the test suite file.
-2. Define a new keyword called Login And Verify.
-3. Move the common test steps for logging in to the website (i.e., everything after Go To) to the new Login And Verify keyword.
-4. Replace the hardcoded username and password values with keyword arguments.
-5. Add a Return From Keyword step to the new Login And Verify keyword to return the welcome message.
-6. Modify the Verify login functionality test case to use the new Login And Verify keyword instead of the common test steps.
+1. Open the Google homepage.
+2. Input the search query.
+3. Submit the search query.
+4. Verify that the search results page is displayed.
+
+For this exercise, assume the following:
+
+- The URL of the Google homepage is "https://www.google.com".
+- The search field has the name attribute "q".
+- The title of the search results page starts with the search query.
+
+Here's how you might write this test case using user keywords:
