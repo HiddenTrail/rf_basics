@@ -22,5 +22,3 @@ For this exercise, assume the following:
 - The URL of the Google homepage is "https://www.google.com".
 - The search field has the name attribute "q".
 - The title of the search results page starts with the search query.
-
-Here's how you might write this test case using user keywords:
