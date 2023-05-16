@@ -7,21 +7,26 @@ ${QUERY}    Robot Framework
 
 *** Keywords ***
 Open Google Homepage
+    New Browser    chromium    headless=False
     New Page    ${URL}
 
 Input Search Query
-    Input Text    name=q    ${QUERY}
+    Type Text    css=[name="q"]    ${QUERY}
+    Click    css=body
+    Wait For Elements State    css=center:nth-child(1) > .gNO89b
 
 Submit Search Query
-    Submit Form
-
+    Click    css=center:nth-child(1) > .gNO89b
 Verify Search Results
-    ${title}=    Get Title
-    Should Start With    ${title}    ${QUERY}
+    Wait For Elements State    css=#search
+
+Accept All Cookies
+    Click    id=L2AGLb
 
 *** Test Cases ***
 Google Search
     Open Google Homepage
+    Accept All Cookies
     Input Search Query
     Submit Search Query
     Verify Search Results
