@@ -1,5 +1,6 @@
 *** Settings ***
-Documentation   Here you can add your suite documentation. For example to explain the suites purpose.
+Documentation   An example solution for the first assignment. 
+...             The assignment is okay by only logging the phrase straight from the test case without any variables or keywords.
 
 *** Variables ***
 ${correct_credentials}   credentials
