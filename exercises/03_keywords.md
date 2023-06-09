@@ -8,17 +8,17 @@ A user-defined keyword is a custom keyword created by the user to perform a spec
 
 ## Exercise 3 - User keywords
 
-Objective: Create a test case to perform a Google search and verify that the search results page is displayed. Also wrap every keyword with your own user keyword with a understandable keyword name.
+Objective: Create a test case to perform login to our test page and verify that the login is successful. Also wrap every keyword with your own user keyword with a understandable keyword name. The needed information is assumed below the steps.
 
 Steps:
 
-1. Open the Google homepage.
-2. Input the search query.
-3. Submit the search query.
-4. Verify that the search results page is displayed.
+1. Open page "https://www.saucedemo.com/".
+2. Input the credentials. Use standard_user as a username and secret_sauce as a password.*
+3. Press login button.
 
 For this exercise, assume the following:
 
-- The URL of the Google homepage is "https://www.google.com".
-- The search field has the name attribute "q".
-- The title of the search results page starts with the search query.
+- The login username field id is "user-name".
+- The login password field id is "password".
+
+* Note that password handling should never be handled this way but we'll have it as a plain text for now. In later parts of this or advanced course, we'll learn how to handle secrets in Robot Framework.

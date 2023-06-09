@@ -1,28 +1,18 @@
 *** Settings ***
+Documentation   An example solution for the second assignment.
 Library    Browser
 
 *** Keywords ***
-Open Google Homepage
+Open Login Homepage
     New Browser    chromium    headless=False
-    New Page    https://www.google.com
+    New Page    https://www.saucedemo.com/
 
-Input Search Query
-    Type Text    css=[name="q"]    Robot Framework
-    Click    css=body
-    Wait For Elements State    css=center:nth-child(1) > .gNO89b
-
-Submit Search Query
-    Click    css=center:nth-child(1) > .gNO89b
-Verify Search Results
-    Wait For Elements State    css=#search
-
-Accept All Cookies
-    Click    id=L2AGLb
+Input Credentials And Login
+    Type Text    id=user-name    standard_user
+    Type Text    id=password    secret_sauce
+    Click        id=login-button
 
 *** Test Cases ***
 Google Search
-    Open Google Homepage
-    Accept All Cookies
-    Input Search Query
-    Submit Search Query
-    Verify Search Results
+    Open Login Homepage
+    Input Credentials And Login
