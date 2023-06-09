@@ -4,25 +4,22 @@ Variables in Robot Framework allow you to store and reuse values throughout your
 
 ## Exercise 4.1 - Variables
 
-Exercise: **Parameterizing the Google Search Test Suite**
+Exercise: **Parameterizing the Login Test Suite**
 
-Objective: Refactor the Google Search test suite to use variables for the search URL and the search query.
+Objective: Refactor the Login test suite to use variables for the URL, and other values.
 
 We will introduce two variables:
 
-1. ${URL}: The URL of the Google homepage. (string)
-2. ${QUERY}: The search query. (string)
+1. ${URL}: The URL to the saucedemo login page. (string)
+2. ${USER_NAME_ID}: Username field ID. (string)
+3. ${PSW_NAME_ID}: Password field ID. (string)
 
 You should replace the hardcoded strings in the test suite and the resource file with these variables.
 
 ## Exercise 4.2 - Other types of variables
 
-Objective: Extend the Google Search test suite to use different variable types.
+Objective: Extend the Login test suite to use different variable types.
 
 Variables can be of different types in Robot Framework, not only strings. For this exercise, let's introduce the following variables:
 
-3. ${TIMEOUT}: The timeout for Wait For Elements State keyword. (integer)
-4. ${COOKIE_BUTTON_ID}: The id of the button to accept all cookies. (string)
-5. &{SELECTORS}: The CSS selectors for the search box, the search button, and the search results. (dictionary)
-
-Your task is to modify the test suite to use these variables.
+TBD.
