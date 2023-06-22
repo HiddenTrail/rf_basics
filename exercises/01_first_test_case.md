@@ -27,6 +27,8 @@ Login Should Work Correctly
 
 ## Exercise 1.1 - Own Robot Framework test suite
 
+**Objective:** Create your first test suite.
+
 Create a test case that logs a message saying "Hello, Robot Framework!". You may add documentation also to the ´*** Settings ****´ section.
 
 TO-DO: Add some things about Metadata, Froce Tags jne fields. NOTE: there is a separate exercise about tagging!

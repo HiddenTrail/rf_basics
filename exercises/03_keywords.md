@@ -8,7 +8,7 @@ A user-defined keyword is a custom keyword created by the user to perform a spec
 
 ## Exercise 3 - User keywords
 
-Objective: Create a test case to perform login to our test page and verify that the login is successful. Also wrap every keyword with your own user keyword with a understandable keyword name. The needed information is assumed below the steps.
+**Objective:** Create a test case to perform login to our test page and verify that the login is successful. Also wrap every keyword with your own user keyword with a understandable keyword name. The needed information is assumed below the steps.
 
 Steps:
 

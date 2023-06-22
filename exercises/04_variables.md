@@ -18,8 +18,6 @@ You should replace the hardcoded strings in the test suite and the resource file
 
 ## Exercise 4.2 - Other types of variables
 
-Objective: Extend the Login test suite to use different variable types.
+**Objective:** Extend the Login test suite to use different variable types.
 
-Variables can be of different types in Robot Framework, not only strings. For this exercise, let's introduce the following variables:
-
-TBD.
+Variables can be of different types in Robot Framework, not only strings. For this exercise, you may use different kind of variables and for example use the Log keyword to log them in your tests.

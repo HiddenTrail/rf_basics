@@ -9,7 +9,7 @@ Open Login Homepage
 
 Input Credentials And Login
     Type Text    id=user-name    standard_user
-    Type Text    id=password    secret_sauce
+    Type Text    id=password     secret_sauce
     Click        id=login-button
 
 *** Test Cases ***

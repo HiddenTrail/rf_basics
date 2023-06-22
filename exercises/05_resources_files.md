@@ -10,8 +10,6 @@ Using resource files can help to reduce duplication and make test cases more mod
 
 ## Exercise 5 - Resource files
 
-Exercise: Refactoring Google Search Test Suite with Resource Files
-
-Objective: Refactor the Google Search test suite to use a resource file.
+**Objective:** Move your keywords from the test suite and make a resource file.
 
 We will extract all user keywords into a separate file, which will make our test suite cleaner and our keywords reusable across different test suites. You may also add your variables into the resource file.
