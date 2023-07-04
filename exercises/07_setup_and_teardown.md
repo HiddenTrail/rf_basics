@@ -12,13 +12,11 @@ By using setups and teardowns in Robot Framework, you can make your test cases m
 
 ## Exercise 7 - Setup and teardown
 
-Your task is to modify your test suite to use setups and teardowns to perform common test steps before and after each test case.
-
-To accomplish this, you'll need to define a setup and a teardown keyword that encapsulate the common test steps for opening and closing the browser, and then use these keywords in the test suite. Here are the steps:
+**Objective:** Your task is to modify your test suite to use setups and teardowns to perform common test steps before and after each test case. To accomplish this, you'll need to define a setup and a teardown keyword that encapsulate the common test steps for opening and closing the browser, and then use these keywords in the test suite. Here are the steps:
 
 1. Add a *** Keywords *** section to the test suite file.
 2. Define a new keyword called Open Browser.
 3. Define a new keyword called Close Browser.
-4. Move the Open Available Browser and Close Browser keywords from the test case to the new Open Browser and 5. Close Browser keywords, respectively.
+4. Move the Open Available Browser and Close Browser keywords from the test case to the new Open Browser and Close Browser keywords, respectively.
 6. Add a Suite Setup setting to the test suite that calls the Open Browser keyword.
 7. Add a Suite Teardown setting to the test suite that calls the Close Browser keyword.
