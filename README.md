@@ -38,3 +38,5 @@ To take this course, you'll need to have a basic understanding of software testi
 ## Getting Help
 
 If you encounter any issues while following this course or have any questions, please don't hesitate to ask for help in the course, or from Hidden Trail experts. In addition, you may join the common Robot Framework channels to get help, see more infomration on [Robot Framework community](https://robotframework.org/#community).
+
+Note! The exercise solutions are only as an example, and those exercises can have multiple good solutions.
