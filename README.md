@@ -29,8 +29,6 @@ The repository is divided by exercises and solutions folders. In addition the re
 
 09. **Tagging** - In this section, you'll learn how to use tagging in Robot Framework. You'll learn how to tag your test cases and use tags to run specific tests or exclude certain tests.
 
-10. **Further Resources** - In this section, you'll find additional resources and documentation to help you continue learning about Robot Framework.
-
 ## Prerequisites
 
 To take this course, you'll need to have a basic understanding of software testing concepts and familiarity with Python programming language.
