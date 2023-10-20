@@ -31,8 +31,6 @@ Login Should Work Correctly
 
 Create a test case that logs a message saying "Hello, Robot Framework!". You may add documentation also to the ´*** Settings ****´ section.
 
-TO-DO: Add some things about Metadata, Froce Tags jne fields. NOTE: there is a separate exercise about tagging!
-
 ## Exercise 1.2 - Extra assignment
 
 Add a Metadata section to give some additional information to your test suite.
