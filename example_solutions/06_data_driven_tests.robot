@@ -17,7 +17,6 @@ Invalid Login
   performance_glitch_user_wrong
 
 *** Keywords ***
-
 Attempt Login With Invalid Credentials
   [Arguments]  ${username}
   New Browser  ${BROWSER}
@@ -26,5 +25,5 @@ Attempt Login With Invalid Credentials
   Fill Text  ${PASSWORD_INPUT}  ${PASSWORD}
   Click  ${LOGIN_BUTTON}
   Get Element States    id=${LOGIN_BUTTON}
-  Wait For Elements State   //*[@id="login_button_container"]/div/form/div[3]/h3/button   visible   2s
+  Wait For Elements State   id=login_button_container   visible   2s
   Close Browser
