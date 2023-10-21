@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation   An example test suite to use in second assignment (running robot tests).
+Documentation   An example test suite to use in second assignment (running robot tests). You may use this suite to try different running types.
 
 *** Variables ***
 ${correct_credentials}   credentials

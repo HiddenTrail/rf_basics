@@ -2,23 +2,20 @@
 Library    Browser
 
 *** Variables ***
-${URL}    https://www.google.com
-${QUERY}    Robot Framework
+${URL}            https://www.saucedemo.com/
+${USER_NAME_ID}   user-name
+${PSW_NAME_ID}    password
+${LOGIN_ID}       login-button
+${USER_NAME}      standard_user
+${PSW}            secret_sauce
+
 
 *** Keywords ***
-Open Google Homepage
+Open Login Homepage
     New Browser    chromium    headless=False
-    New Page    ${URL}
+    New Page    https://www.saucedemo.com/
 
-Input Search Query
-    Type Text    css=[name="q"]    ${QUERY}
-    Click    css=body
-    Wait For Elements State    css=center:nth-child(1) > .gNO89b
-
-Submit Search Query
-    Click    css=center:nth-child(1) > .gNO89b
-Verify Search Results
-    Wait For Elements State    css=#search
-
-Accept All Cookies
-    Click    id=L2AGLb
+Input Credentials And Login
+    Type Text    id=${USER_NAME_ID}   ${USER_NAME}
+    Type Text    id=${PSW_NAME_ID}    ${PSW}
+    Click        id=${LOGIN_ID}

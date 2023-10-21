@@ -13,6 +13,6 @@ Input Credentials And Login
     Click        id=login-button
 
 *** Test Cases ***
-Google Search
+Login To saucedemo.com
     Open Login Homepage
     Input Credentials And Login

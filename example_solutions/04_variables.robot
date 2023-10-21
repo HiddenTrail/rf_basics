@@ -21,6 +21,6 @@ Input Credentials And Login
     Click        id=${LOGIN_ID}
 
 *** Test Cases ***
-Google Search
+Login To saucedemo.com
     Open Login Homepage
     Input Credentials And Login

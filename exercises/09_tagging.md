@@ -10,3 +10,6 @@ Once you have tagged your test cases, you can use the --include and --exclude co
 
 ## Exercise 9 - Tagging
 
+**Objective:** Learn the basic tagging in Robot Framework.
+
+In this exercise you may add some tags to your old test cases. Add different kinds on the test cases and on the *** Settings *** with Test Tags to add some tags to all of the test cases in that suite. Also, try different running options with --include and --exclude with the added tags.
