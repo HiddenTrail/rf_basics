@@ -10,5 +10,5 @@ You should do the following:
 
 1. You may copy your existing test suite to create data-driven test suite.
 2. In the *** Keywords *** section, create a test case template for logging in using a username from a list of usernames. After each login attempt, validate whether the login was unsuccessful. Then clear the input fields for the next attempt.
-3. Use Test Template in *** Settings *** section.
-4.Create a test case that uses this template to perform multiple login attempts.
+3. Use Test Template in *** Settings *** section with your just created keyword.
+4. Create a test case that uses this template to perform multiple login attempts.
