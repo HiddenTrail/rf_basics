@@ -24,3 +24,7 @@
 ## Exercise 8.2 - Locators Extra Exercise
 
 As an extra challenge, check that the price of the "Sauce Labs Backpack" is $29.99. You may use any locator to your choosing to accomplish this.
+
+## Exercise 8.3 - Locators Another Extra Exercise
+
+Do the same as in 8.1 OR 8.2 but you are not allowed to use any id:s as the locator. There is no solution for this, but you may check the other solutions as an example.

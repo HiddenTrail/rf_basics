@@ -8,7 +8,7 @@ Test Template     Attempt To Login With Invalid Credentials
 ${URL}            https://www.saucedemo.com
 ${ERROR_MESSAGE}  Epic sadface: Username and password do not match any user in this service
 
-*** Test Cases ***                 USERNAME       PASSWORD
+*** Test Cases ***                USERNAME       PASSWORD
 Invalid Login Attempt 1           test_user_1    BadPass1!
 Invalid Login Attempt 2           test_user_2    BadPass2!
 
