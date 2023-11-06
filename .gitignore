@@ -1,3 +1,5 @@
 *.html
 *.xml
 playwright-log.txt
+/browser
+/example_solutions/browser
