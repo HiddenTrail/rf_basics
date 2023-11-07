@@ -20,8 +20,8 @@ You should do the following:
 You should do the following:
 
 1. Open the browser and navigate to saucedemo.com.
-2. Attempt to log in with a set of usernames and passwords.
-3. Verify that the login error message appears for each invalid login attempt. You can also just verify that you're still in the login page (with header or so).
+2. Attempt to log in with invalid (does not login) set of usernames and passwords.
+3. Verify that the login error message appears for each invalid login attempt. You can also just verify that you're still in the login page (with header or the login button or so).
 
 ## Exercise 6.3 - Data driven tests and checkout flow
 
