@@ -15,13 +15,13 @@ You should do the following:
 
 ## Exercise 6.2 - Data driven tests and unvalid login
 
-**Objective:** Automate multiple login attempts with different usernames and passwords to validate the login error message using the Browser library.
+**Objective:** Automate multiple login attempts with different usernames and passwords to validate the login error message using the Browser library. Now we are using some different type of Test Template usage.
 
 You should do the following:
 
 1. Open the browser and navigate to saucedemo.com.
-2. Attempt to log in with invalid (does not login) set of usernames and passwords.
-3. Verify that the login error message appears for each invalid login attempt. You can also just verify that you're still in the login page (with header or the login button or so).
+2. Attempt to log in with invalid (does not login) set of usernames and passwords and now also with login attempt.
+3. Verify that the login error message appears for each invalid login attempt and that the login has been successful with the correct credentials.
 
 ## Exercise 6.3 - Data driven tests and checkout flow
 
